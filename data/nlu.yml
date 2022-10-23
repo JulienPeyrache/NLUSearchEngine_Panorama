@@ -1,32 +1,87 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
 
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
 
+  - intent: Restaurant d’entreprise
+    examples: |
+    -restaurant
+  - intent: Offre en libre service
+    examples: |
+    -libre service
+  - intent: Se détendre
+    examples: |
+    -fun
+    -détente
+  - intent: Services à la personne
+    examples: |
+    - jsp
+  - intent: Hygiène
+    examples: |
+    -jsp
+  - intent: Equipements généraux du bâtiment
+    examples: |
+    jsp
+  - intent: Se déplacer
+    examples: |
+    -jsp
+  - intent: Organiser une réunion
+    examples: |
+    -exemple
+  - intent: Organiser un événement
+    examples: |
+    -exmple
+  - intent: Accueillir des visiteurs
+    examples: |
+    -exmeple
+  - intent: Réception/expédition de courrier
+    examples: |
+    -exemlpe
+  - intent: Déménagement/aménagement
+    examples: |
+    -exemple
+  - intent: Archivage
+    examples: |
+    -archiver
+  - intent: Reprographie
+    examples: |
+    -exemlpe
+  - intent: Guichet de support ET
+    examples: |
+    -exmple
+  - intent: Guichet de support IT
+    examples: |
+    -exmeple
+  - intent: Entretien des extérieurs
+    examples: |
+    -exmple
+  - intent: Sécurité et sûreté
+    examples: |
+    -exmple

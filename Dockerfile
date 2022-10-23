@@ -9,4 +9,4 @@ COPY . .
 
 RUN python3 -m rasa train nlu --fixed-model-name "search_model"
 
-CMD [ "python3", "-m" , "rasa", "run", "--enable-api", "/app/models/search_model.tar.gz", "--cors", "*", "--debug", "--port", "5005"]
+CMD [ "python3", "-m" , "rasa", "run", "--enable-api","--cors", "*", "--debug", "--port", "5005","/app/models/search_model.tar.gz"]
