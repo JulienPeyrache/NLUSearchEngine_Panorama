@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python:3.9.15-bullseye
 
 WORKDIR /app
 
@@ -9,4 +9,4 @@ COPY . .
 
 RUN python3 -m rasa train nlu --fixed-model-name "search_model"
 
-CMD [ "python3", "-m" , "rasa", "run", "--enable-api", "/app/models/search_model.tar.gz"]
+CMD [ "python3", "-m" , "rasa", "run", "--enable-api", "/app/models/search_model.tar.gz", "--cors", "*", "--debug", "--port", "5005"]
