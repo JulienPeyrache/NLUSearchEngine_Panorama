@@ -33,9 +33,16 @@ nlu:
   - intent: Restaurant d’entreprise
     examples: |
     -restaurant
+    - manger
+    - nourrir
+    - faim
+
   - intent: Offre en libre service
     examples: |
     -libre service
+    - boisson chaude
+    - machine à café
+    - chocolat chaud
   - intent: Se détendre
     examples: |
     -fun
