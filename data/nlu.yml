@@ -16,12 +16,14 @@ nlu:
       - goodmorning
       - goodevening
       - good afternoon
+      - bonjour
+      - salut
 
   - intent: goodbye
     examples: |
       - cu
-      - good by
-      - cee you later
+      - good bye
+      - see you later
       - good night
       - bye
       - goodbye
@@ -32,63 +34,204 @@ nlu:
 
   - intent: Restaurant d’entreprise
     examples: |
-    -restaurant
+    - restaurant
     - manger
     - nourrir
     - faim
+    - cantine
+    - plat
+    - repas
+    - resto
+    - restauration
+    - table
+    - emporter
+    - sandwich
+    - bar
+    - cafétéria
 
   - intent: Offre en libre service
     examples: |
-    -libre service
+    - libre service
     - boisson chaude
     - machine à café
     - chocolat chaud
+    - thé
+    - boisson
+    - fontaine
+    - eau
+    - fruits
+
   - intent: Se détendre
     examples: |
-    -fun
-    -détente
+    - fun
+    - détente
+    - pause
+
   - intent: Services à la personne
     examples: |
-    - jsp
+    - convivialité
+    - food truck
+    - livraison repas
+    - club sportif
+    - sport
+    - salle de sport
+    - gymnase
+
   - intent: Hygiène
     examples: |
-    -jsp
+    - propreté
+    - déchets
+    - hygiène
+    - nettoyage
+    - recyclage
+    - destruction documents
+    - destruction archives
+
   - intent: Equipements généraux du bâtiment
     examples: |
-    jsp
+    - parking
+    - stationnement
+    - garer
+    - espace vert
+    - extérieur
+    - table
+    - banc
+    - pique nique
+
   - intent: Se déplacer
     examples: |
-    -jsp
+    - trajet
+    - déplacement
+    - stationnement
+    - parking
+    - mobilité
+    - transport public
+    - transports publiques
+    - vélo
+    - trotinette
+    - automobile
+    - covoiturage
+    - contrôle technique
+    - réparation voiture
+    - location véhicule
+    - taxi
+    - carburant
+
   - intent: Organiser une réunion
     examples: |
-    -exemple
+    - réunion
+    - réservation salle
+    - organiser une réunion
+
   - intent: Organiser un événement
     examples: |
-    -exmple
+    - événement
+
   - intent: Accueillir des visiteurs
     examples: |
-    -exmeple
+    - accueil
+    - horaires
+    - horaire
+    - visiteur
+    - visiter
+    - wifi
+    - demande badge
+    - badge
+    - réservation taxi
+    - vestiaire
+    - 
   - intent: Réception/expédition de courrier
     examples: |
-    -exemlpe
+    - courrier
+    - poste
+    - lettre
+    - colis
+    - distribution
+    - récéption
+    - livraison
+
   - intent: Déménagement/aménagement
     examples: |
-    -exemple
+    - déménagement
+    - aménagement
+
   - intent: Archivage
     examples: |
-    -archiver
+    - archiver
+    - archives
+    - formulaire de consultation
+    - local archive
+    - archivage
+    - DOCAPOST
+
   - intent: Reprographie
     examples: |
-    -exemlpe
+    - copier
+    - numériser
+    - copieuse
+    - impréssion
+    - scan
+    - imprimante
+    - impression carte de visite
+    - reprographie
+
   - intent: Guichet de support ET
     examples: |
-    -exmple
+    - support EasyVista
+    - support easyvista
+    - environnement de travail
+    - ET
+    - urgence travail
+    - immobilier
+    - réparation ascensceur
+    - réparation clim
+    - réparation climatisation
+    - réparation chauffage
+    - panne éléctrique
+    - support travail
+
   - intent: Guichet de support IT
     examples: |
-    -exmeple
+    - easyvista
+    - EasyVista
+    - réseau
+    - support technique
+    - suport
+    - messagerie
+    - demande poste de travail
+    - équipement télétravail
+    - matériel PC
+    - PC
+    - support visio
+    - assistance visio
+    - IT
+
   - intent: Entretien des extérieurs
     examples: |
-    -exmple
+    - entretien espace vert
+    - déchet vert
+    - soufflage feuilles
+    - potager
+    - ruche
+    - ecopastoralisme
+    - pelouse
+
   - intent: Sécurité et sûreté
     examples: |
-    -exmple
+    - intervention
+    - sécurité
+    - sûreté
+    - télésurveillance
+    - vidéosurveillance
+    - incendie
+    - intrusion
+    - contrôle d'accès
+    - accès
+    - droit d'accès
+    - enregistrement
+    - surveillance
+    - règles
+    - règlement
+    - perte
+    - vol
+    - alarme
