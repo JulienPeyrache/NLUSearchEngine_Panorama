@@ -17,6 +17,10 @@ nlu:
       - sandwich
       - bar
       - cafétéria
+<<<<<<< HEAD
+=======
+      - déjeuner
+>>>>>>> ddef324 (add new examples)
 
   - intent: Offre en libre service
     examples: |
@@ -29,12 +33,32 @@ nlu:
       - fontaine
       - eau
       - fruits
+<<<<<<< HEAD
+=======
+      - distributeur
+      - coca
+      - coca zero
+      - café
+      - jus
+      - soda
+      - ice tea
+      - sprite
+      - eau gazeuse
+>>>>>>> ddef324 (add new examples)
 
   - intent: Se détendre
     examples: |
       - fun
       - détente
       - pause
+<<<<<<< HEAD
+=======
+      - relaxer
+      - décompresser
+      - repos
+      - reposer
+      - sieste
+>>>>>>> ddef324 (add new examples)
 
   - intent: Services à la personne
     examples: |
@@ -45,6 +69,12 @@ nlu:
       - sport
       - salle de sport
       - gymnase
+<<<<<<< HEAD
+=======
+      - culture
+      - contrôle technique
+      - réparation voiture
+>>>>>>> ddef324 (add new examples)
 
   - intent: Hygiène
     examples: |
@@ -55,6 +85,16 @@ nlu:
       - recyclage
       - destruction documents
       - destruction archives
+<<<<<<< HEAD
+=======
+      - douches
+      - WC
+      - toilettes
+      - lavabo
+      - savon
+      - gel
+      - gel hydroalcoolique
+>>>>>>> ddef324 (add new examples)
 
   - intent: Equipements généraux du bâtiment
     examples: |
@@ -66,6 +106,14 @@ nlu:
       - table
       - banc
       - pique nique
+<<<<<<< HEAD
+=======
+      - climatisation
+      - ascenseur
+      - escalier
+      - poste de travail
+      - surface
+>>>>>>> ddef324 (add new examples)
 
   - intent: Se déplacer
     examples: |
@@ -80,25 +128,52 @@ nlu:
       - trotinette
       - automobile
       - covoiturage
+<<<<<<< HEAD
       - contrôle technique
       - réparation voiture
       - location véhicule
       - taxi
       - carburant
+=======
+      - location véhicule
+      - taxi
+      - carburant
+      - navette
+>>>>>>> ddef324 (add new examples)
 
   - intent: Organiser une réunion
     examples: |
       - réunion
       - réservation salle
       - organiser une réunion
+<<<<<<< HEAD
+=======
+      - ormo salle
+      - cabine
+      - salle de réunion
+>>>>>>> ddef324 (add new examples)
 
   - intent: Organiser un événement
     examples: |
       - événement
+<<<<<<< HEAD
+=======
+      - organiser un événement
+      - réservation salle
+      - buffet
+      - amphi
+      - amphithéâtre
+      - conférence
+      - séminaire
+>>>>>>> ddef324 (add new examples)
 
   - intent: Accueillir des visiteurs
     examples: |
       - accueil
+<<<<<<< HEAD
+=======
+      - accompagnement
+>>>>>>> ddef324 (add new examples)
       - horaires
       - horaire
       - visiteur
@@ -116,13 +191,29 @@ nlu:
       - lettre
       - colis
       - distribution
+<<<<<<< HEAD
       - récéption
       - livraison
+=======
+      - réception
+      - livraison
+      - lettre recommandée
+>>>>>>> ddef324 (add new examples)
 
   - intent: Déménagement/aménagement
     examples: |
       - déménagement
       - aménagement
+<<<<<<< HEAD
+=======
+      - nouveau bureau
+      - nouveau poste
+      - nouveau poste de travail
+      - changer de bureau
+      - changer de poste
+      - changer de poste de travail
+      - changer de site
+>>>>>>> ddef324 (add new examples)
 
   - intent: Archivage
     examples: |
@@ -138,8 +229,15 @@ nlu:
       - copier
       - numériser
       - copieuse
+<<<<<<< HEAD
       - impréssion
       - scan
+=======
+      - impression
+      - imprimer
+      - scan
+      - scanner
+>>>>>>> ddef324 (add new examples)
       - imprimante
       - impression carte de visite
       - reprographie
@@ -150,13 +248,21 @@ nlu:
       - support easyvista
       - environnement de travail
       - ET
+<<<<<<< HEAD
+=======
+      - DIET
+>>>>>>> ddef324 (add new examples)
       - urgence travail
       - immobilier
       - réparation ascensceur
       - réparation clim
       - réparation climatisation
       - réparation chauffage
+<<<<<<< HEAD
       - panne éléctrique
+=======
+      - panne électrique
+>>>>>>> ddef324 (add new examples)
       - support travail
 
   - intent: Guichet de support IT
@@ -174,6 +280,12 @@ nlu:
       - support visio
       - assistance visio
       - IT
+<<<<<<< HEAD
+=======
+      - informatique
+      - support informatique
+      - support IT
+>>>>>>> ddef324 (add new examples)
 
   - intent: Entretien des extérieurs
     examples: |
@@ -184,6 +296,10 @@ nlu:
       - ruche
       - ecopastoralisme
       - pelouse
+<<<<<<< HEAD
+=======
+      - jardin
+>>>>>>> ddef324 (add new examples)
 
   - intent: Sécurité et sûreté
     examples: |
@@ -204,3 +320,8 @@ nlu:
       - perte
       - vol
       - alarme
+<<<<<<< HEAD
+=======
+      - caméra
+      - incendie
+>>>>>>> ddef324 (add new examples)
