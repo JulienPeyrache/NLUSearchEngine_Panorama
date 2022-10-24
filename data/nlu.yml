@@ -3,204 +3,204 @@ version: "3.1"
 nlu:
   - intent: Restaurant d’entreprise
     examples: |
-    - restaurant
-    - manger
-    - nourrir
-    - faim
-    - cantine
-    - plat
-    - repas
-    - resto
-    - restauration
-    - table
-    - emporter
-    - sandwich
-    - bar
-    - cafétéria
+      - restaurant
+      - manger
+      - nourrir
+      - faim
+      - cantine
+      - plat
+      - repas
+      - resto
+      - restauration
+      - table
+      - emporter
+      - sandwich
+      - bar
+      - cafétéria
 
   - intent: Offre en libre service
     examples: |
-    - libre service
-    - boisson chaude
-    - machine à café
-    - chocolat chaud
-    - thé
-    - boisson
-    - fontaine
-    - eau
-    - fruits
+      - libre service
+      - boisson chaude
+      - machine à café
+      - chocolat chaud
+      - thé
+      - boisson
+      - fontaine
+      - eau
+      - fruits
 
   - intent: Se détendre
     examples: |
-    - fun
-    - détente
-    - pause
+      - fun
+      - détente
+      - pause
 
   - intent: Services à la personne
     examples: |
-    - convivialité
-    - food truck
-    - livraison repas
-    - club sportif
-    - sport
-    - salle de sport
-    - gymnase
+      - convivialité
+      - food truck
+      - livraison repas
+      - club sportif
+      - sport
+      - salle de sport
+      - gymnase
 
   - intent: Hygiène
     examples: |
-    - propreté
-    - déchets
-    - hygiène
-    - nettoyage
-    - recyclage
-    - destruction documents
-    - destruction archives
+      - propreté
+      - déchets
+      - hygiène
+      - nettoyage
+      - recyclage
+      - destruction documents
+      - destruction archives
 
   - intent: Equipements généraux du bâtiment
     examples: |
-    - parking
-    - stationnement
-    - garer
-    - espace vert
-    - extérieur
-    - table
-    - banc
-    - pique nique
+      - parking
+      - stationnement
+      - garer
+      - espace vert
+      - extérieur
+      - table
+      - banc
+      - pique nique
 
   - intent: Se déplacer
     examples: |
-    - trajet
-    - déplacement
-    - stationnement
-    - parking
-    - mobilité
-    - transport public
-    - transports publiques
-    - vélo
-    - trotinette
-    - automobile
-    - covoiturage
-    - contrôle technique
-    - réparation voiture
-    - location véhicule
-    - taxi
-    - carburant
+      - trajet
+      - déplacement
+      - stationnement
+      - parking
+      - mobilité
+      - transport public
+      - transports publiques
+      - vélo
+      - trotinette
+      - automobile
+      - covoiturage
+      - contrôle technique
+      - réparation voiture
+      - location véhicule
+      - taxi
+      - carburant
 
   - intent: Organiser une réunion
     examples: |
-    - réunion
-    - réservation salle
-    - organiser une réunion
+      - réunion
+      - réservation salle
+      - organiser une réunion
 
   - intent: Organiser un événement
     examples: |
-    - événement
+      - événement
 
   - intent: Accueillir des visiteurs
     examples: |
-    - accueil
-    - horaires
-    - horaire
-    - visiteur
-    - visiter
-    - wifi
-    - demande badge
-    - badge
-    - réservation taxi
-    - vestiaire
-    - 
+      - accueil
+      - horaires
+      - horaire
+      - visiteur
+      - visiter
+      - wifi
+      - demande badge
+      - badge
+      - réservation taxi
+      - vestiaire
+
   - intent: Réception/expédition de courrier
     examples: |
-    - courrier
-    - poste
-    - lettre
-    - colis
-    - distribution
-    - récéption
-    - livraison
+      - courrier
+      - poste
+      - lettre
+      - colis
+      - distribution
+      - récéption
+      - livraison
 
   - intent: Déménagement/aménagement
     examples: |
-    - déménagement
-    - aménagement
+      - déménagement
+      - aménagement
 
   - intent: Archivage
     examples: |
-    - archiver
-    - archives
-    - formulaire de consultation
-    - local archive
-    - archivage
-    - DOCAPOST
+      - archiver
+      - archives
+      - formulaire de consultation
+      - local archive
+      - archivage
+      - DOCAPOST
 
   - intent: Reprographie
     examples: |
-    - copier
-    - numériser
-    - copieuse
-    - impréssion
-    - scan
-    - imprimante
-    - impression carte de visite
-    - reprographie
+      - copier
+      - numériser
+      - copieuse
+      - impréssion
+      - scan
+      - imprimante
+      - impression carte de visite
+      - reprographie
 
   - intent: Guichet de support ET
     examples: |
-    - support EasyVista
-    - support easyvista
-    - environnement de travail
-    - ET
-    - urgence travail
-    - immobilier
-    - réparation ascensceur
-    - réparation clim
-    - réparation climatisation
-    - réparation chauffage
-    - panne éléctrique
-    - support travail
+      - support EasyVista
+      - support easyvista
+      - environnement de travail
+      - ET
+      - urgence travail
+      - immobilier
+      - réparation ascensceur
+      - réparation clim
+      - réparation climatisation
+      - réparation chauffage
+      - panne éléctrique
+      - support travail
 
   - intent: Guichet de support IT
     examples: |
-    - easyvista
-    - EasyVista
-    - réseau
-    - support technique
-    - suport
-    - messagerie
-    - demande poste de travail
-    - équipement télétravail
-    - matériel PC
-    - PC
-    - support visio
-    - assistance visio
-    - IT
+      - easyvista
+      - EasyVista
+      - réseau
+      - support technique
+      - suport
+      - messagerie
+      - demande poste de travail
+      - équipement télétravail
+      - matériel PC
+      - PC
+      - support visio
+      - assistance visio
+      - IT
 
   - intent: Entretien des extérieurs
     examples: |
-    - entretien espace vert
-    - déchet vert
-    - soufflage feuilles
-    - potager
-    - ruche
-    - ecopastoralisme
-    - pelouse
+      - entretien espace vert
+      - déchet vert
+      - soufflage feuilles
+      - potager
+      - ruche
+      - ecopastoralisme
+      - pelouse
 
   - intent: Sécurité et sûreté
     examples: |
-    - intervention
-    - sécurité
-    - sûreté
-    - télésurveillance
-    - vidéosurveillance
-    - incendie
-    - intrusion
-    - contrôle d'accès
-    - accès
-    - droit d'accès
-    - enregistrement
-    - surveillance
-    - règles
-    - règlement
-    - perte
-    - vol
-    - alarme
+      - intervention
+      - sécurité
+      - sûreté
+      - télésurveillance
+      - vidéosurveillance
+      - incendie
+      - intrusion
+      - contrôle d'accès
+      - accès
+      - droit d'accès
+      - enregistrement
+      - surveillance
+      - règles
+      - règlement
+      - perte
+      - vol
+      - alarme
