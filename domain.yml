@@ -1,8 +1,6 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
   - Restaurant d’entreprise
   - Offre en libre service
   - Se détendre
