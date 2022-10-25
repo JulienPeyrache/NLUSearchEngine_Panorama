@@ -15,5 +15,5 @@ build:
     - docker login ${HARBOR_SERVER} --username ${DOCKER_USER} --password ${DOCKER_PASSWORD}
   script:
     - docker build -t rasa .
-    - docker tag server zasyvcng.gra5.container-registry.ovh.net/library/macif-panorama/rasa:${CI_COMMIT_REF_NAME}
+    - docker tag rasa zasyvcng.gra5.container-registry.ovh.net/library/macif-panorama/rasa:${CI_COMMIT_REF_NAME}
     - docker push zasyvcng.gra5.container-registry.ovh.net/library/macif-panorama/rasa:${CI_COMMIT_REF_NAME}
