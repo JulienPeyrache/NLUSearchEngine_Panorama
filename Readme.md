@@ -1,2 +1,1 @@
-Il faut d'abord se placer dans le dossier "rasa_macif", uis run la commande : $docker build -t rasa .
-qui indique qu'on construit une image qui s'appelle rasa, basée sur le Dockerfile qui est dans le dossier actuel (pwd : .)
+Pour lancer Rasa, il faut `docker build -t rasa .` pour build l'image à partir du Dockerfile, et ensuite créer un conteneur à partir de cette image.
